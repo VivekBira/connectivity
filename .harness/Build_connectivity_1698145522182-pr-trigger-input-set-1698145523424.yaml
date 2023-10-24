@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_connectivity_1698145522182-pr-trigger-input-set
+  identifier: Build_connectivity_1698145522182prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_connectivity_1698145522182
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
